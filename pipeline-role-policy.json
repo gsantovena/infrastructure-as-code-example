@@ -11,7 +11,9 @@
             "cloudformation:ExecuteChangeSet",
             "cloudformation:DeleteStack",
             "cloudformation:DescribeChangeSet",
-            "cloudformation:SetStackPolicy"
+            "cloudformation:SetStackPolicy",
+            "iam:PassRole",
+            "sns:Publish"
         ],
         "Effect": "Allow",
         "Resource": "*"
